@@ -2,8 +2,9 @@
   "name": "resolucao-desafio-backend-03-dindin-t05",
   "version": "1.0.0",
   "description": "![](https://i.imgur.com/xG74tOh.png)",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon ./src/index.js"
   },
   "repository": {

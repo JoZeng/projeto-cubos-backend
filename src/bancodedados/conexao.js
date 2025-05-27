@@ -5,9 +5,9 @@ const pool = new Pool({
   port: 5432,
   user: "postgres",
   password: "123456",
-  database: "dindin2",
+  database: "cubos",
 });
-  
+
 const query = (text, param) => {
   return pool.query(text, param);
 };
